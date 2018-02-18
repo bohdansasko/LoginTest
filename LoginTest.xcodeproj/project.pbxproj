@@ -7,12 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2007D3DD2033A3160094F520 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2007D3DC2033A3160094F520 /* Home.storyboard */; };
+		2007D3DF2033A3600094F520 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2007D3DE2033A3600094F520 /* Login.storyboard */; };
+		2007D3E12033A36B0094F520 /* Signup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2007D3E02033A36B0094F520 /* Signup.storyboard */; };
+		2007D3E32033A37A0094F520 /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2007D3E22033A37A0094F520 /* Splash.storyboard */; };
+		2007D3E52033A4470094F520 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2007D3E42033A4470094F520 /* HomeInteractor.swift */; };
+		2007D3E72033A4770094F520 /* HomeInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2007D3E62033A4770094F520 /* HomeInteractorProtocol.swift */; };
+		2007D3E92033A4920094F520 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2007D3E82033A4920094F520 /* LoginInteractor.swift */; };
+		2007D3EB2033A4A50094F520 /* LoginInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2007D3EA2033A4A50094F520 /* LoginInteractorProtocol.swift */; };
+		2007D3ED2033A4BD0094F520 /* SignupInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2007D3EC2033A4BD0094F520 /* SignupInteractor.swift */; };
+		2007D3EF2033A4D00094F520 /* SplashInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2007D3EE2033A4D00094F520 /* SplashInteractor.swift */; };
+		2007D3F12033A4DD0094F520 /* SplashInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2007D3F02033A4DD0094F520 /* SplashInteractorProtocol.swift */; };
+		2007D3F32033A4E80094F520 /* SignupInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2007D3F22033A4E80094F520 /* SignupInteractorProtocol.swift */; };
+		2007D3F52033A5BC0094F520 /* SignUpViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2007D3F42033A5BC0094F520 /* SignUpViewControllerProtocol.swift */; };
+		2007D3F72033A5CC0094F520 /* LoginViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2007D3F62033A5CC0094F520 /* LoginViewControllerProtocol.swift */; };
+		2007D3F92033A5E90094F520 /* HomeViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2007D3F82033A5E90094F520 /* HomeViewControllerProtocol.swift */; };
+		2007D3FB2033A5F80094F520 /* SplashViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2007D3FA2033A5F80094F520 /* SplashViewControllerProtocol.swift */; };
+		2007D3FD2033A6AC0094F520 /* RootWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2007D3FC2033A6AC0094F520 /* RootWireframe.swift */; };
+		2007D3FF2033A6DD0094F520 /* HomeWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2007D3FE2033A6DD0094F520 /* HomeWireframe.swift */; };
+		2007D4012033A6FB0094F520 /* HomeWireframeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2007D4002033A6FB0094F520 /* HomeWireframeProtocol.swift */; };
+		2007D4032033A71A0094F520 /* SplashWireframeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2007D4022033A71A0094F520 /* SplashWireframeProtocol.swift */; };
+		2007D4052033A7240094F520 /* SplashWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2007D4042033A7240094F520 /* SplashWireframe.swift */; };
+		2007D4072033A7370094F520 /* LoginWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2007D4062033A7370094F520 /* LoginWireframe.swift */; };
+		2007D4092033A7460094F520 /* LoginWireframeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2007D4082033A7460094F520 /* LoginWireframeProtocol.swift */; };
+		2007D40B2033A75C0094F520 /* SignupWireframeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2007D40A2033A75C0094F520 /* SignupWireframeProtocol.swift */; };
+		2007D40D2033A7680094F520 /* SignupWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2007D40C2033A7680094F520 /* SignupWireframe.swift */; };
 		367120223A771D13DFA47982 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367122A6CC480F3C8EE88715 /* SignUpViewController.swift */; };
 		36712203548C2003088D1C25 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3671298FE93B765C270A9F67 /* User+CoreDataClass.swift */; };
 		367124746D42DD9925401888 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36712B2491DCB765E4DD4AB2 /* CoreDataManager.swift */; };
 		367125A96A41DBB0F243CD28 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36712283C2DED7CAD258C82D /* DataStore.swift */; };
 		3671268433258C799FB22C70 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36712B31849D1150203E5B5D /* HomeViewController.swift */; };
-		367126D2DEBA50A908D6E92C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367126924430FE4D152E29D2 /* ViewController.swift */; };
 		3671277E574728C08A59A99D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 367120AAFBF37B7D421DF547 /* Main.storyboard */; };
 		367127E6E75FDC7B2E770E76 /* CoreDataEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36712FBE9554D3236CB99F6A /* CoreDataEngine.swift */; };
 		367129114E3D1E1B4736109F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36712BAAC19C28EFFA10A0FD /* LoginViewController.swift */; };
@@ -26,12 +50,36 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2007D3DC2033A3160094F520 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		2007D3DE2033A3600094F520 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		2007D3E02033A36B0094F520 /* Signup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Signup.storyboard; sourceTree = "<group>"; };
+		2007D3E22033A37A0094F520 /* Splash.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
+		2007D3E42033A4470094F520 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		2007D3E62033A4770094F520 /* HomeInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractorProtocol.swift; sourceTree = "<group>"; };
+		2007D3E82033A4920094F520 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		2007D3EA2033A4A50094F520 /* LoginInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractorProtocol.swift; sourceTree = "<group>"; };
+		2007D3EC2033A4BD0094F520 /* SignupInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupInteractor.swift; sourceTree = "<group>"; };
+		2007D3EE2033A4D00094F520 /* SplashInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashInteractor.swift; sourceTree = "<group>"; };
+		2007D3F02033A4DD0094F520 /* SplashInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashInteractorProtocol.swift; sourceTree = "<group>"; };
+		2007D3F22033A4E80094F520 /* SignupInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupInteractorProtocol.swift; sourceTree = "<group>"; };
+		2007D3F42033A5BC0094F520 /* SignUpViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewControllerProtocol.swift; sourceTree = "<group>"; };
+		2007D3F62033A5CC0094F520 /* LoginViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerProtocol.swift; sourceTree = "<group>"; };
+		2007D3F82033A5E90094F520 /* HomeViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerProtocol.swift; sourceTree = "<group>"; };
+		2007D3FA2033A5F80094F520 /* SplashViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewControllerProtocol.swift; sourceTree = "<group>"; };
+		2007D3FC2033A6AC0094F520 /* RootWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootWireframe.swift; sourceTree = "<group>"; };
+		2007D3FE2033A6DD0094F520 /* HomeWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWireframe.swift; sourceTree = "<group>"; };
+		2007D4002033A6FB0094F520 /* HomeWireframeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWireframeProtocol.swift; sourceTree = "<group>"; };
+		2007D4022033A71A0094F520 /* SplashWireframeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashWireframeProtocol.swift; sourceTree = "<group>"; };
+		2007D4042033A7240094F520 /* SplashWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashWireframe.swift; sourceTree = "<group>"; };
+		2007D4062033A7370094F520 /* LoginWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWireframe.swift; sourceTree = "<group>"; };
+		2007D4082033A7460094F520 /* LoginWireframeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWireframeProtocol.swift; sourceTree = "<group>"; };
+		2007D40A2033A75C0094F520 /* SignupWireframeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupWireframeProtocol.swift; sourceTree = "<group>"; };
+		2007D40C2033A7680094F520 /* SignupWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupWireframe.swift; sourceTree = "<group>"; };
 		367120C87E0BAF1194DBE75C /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		36712283C2DED7CAD258C82D /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		367122A6CC480F3C8EE88715 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		3671259514EE6C892B7D6565 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36712684DC2DB7A10EBFBD77 /* LoginTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoginTest.xcdatamodel; sourceTree = "<group>"; };
-		367126924430FE4D152E29D2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		367127689BF6D9FA024C7542 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		3671298FE93B765C270A9F67 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
 		367129C02D3B39F85D440F54 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +105,186 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2007D3C82033A0F80094F520 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				367120C87E0BAF1194DBE75C /* UserModel.swift */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		2007D3C92033A1380094F520 /* ManagedEntities */ = {
+			isa = PBXGroup;
+			children = (
+				3671298FE93B765C270A9F67 /* User+CoreDataClass.swift */,
+				367127689BF6D9FA024C7542 /* User+CoreDataProperties.swift */,
+			);
+			name = ManagedEntities;
+			sourceTree = "<group>";
+		};
+		2007D3CA2033A1540094F520 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				2007D3CE2033A18E0094F520 /* Signup */,
+				2007D3CD2033A1860094F520 /* Login */,
+				2007D3CC2033A1810094F520 /* Home */,
+				2007D3CB2033A1790094F520 /* Splash */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		2007D3CB2033A1790094F520 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				2007D3D52033A2180094F520 /* UI */,
+				2007D3DB2033A2780094F520 /* BusinessLogic */,
+				2007D3D82033A26A0094F520 /* Routing */,
+			);
+			name = Splash;
+			sourceTree = "<group>";
+		};
+		2007D3CC2033A1810094F520 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2007D3D22033A1EC0094F520 /* UI */,
+				2007D3CF2033A1C60094F520 /* BusinessLogic */,
+				2007D3D02033A1DA0094F520 /* Routing */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		2007D3CD2033A1860094F520 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2007D3D42033A2140094F520 /* UI */,
+				2007D3D92033A26F0094F520 /* BusinessLogic */,
+				2007D3D72033A2650094F520 /* Routing */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		2007D3CE2033A18E0094F520 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				2007D3D32033A2100094F520 /* UI */,
+				2007D3DA2033A2730094F520 /* BusinessLogic */,
+				2007D3D62033A25D0094F520 /* Routing */,
+			);
+			name = Signup;
+			sourceTree = "<group>";
+		};
+		2007D3CF2033A1C60094F520 /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+				2007D3E42033A4470094F520 /* HomeInteractor.swift */,
+				2007D3E62033A4770094F520 /* HomeInteractorProtocol.swift */,
+			);
+			name = BusinessLogic;
+			sourceTree = "<group>";
+		};
+		2007D3D02033A1DA0094F520 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				2007D3FE2033A6DD0094F520 /* HomeWireframe.swift */,
+				2007D4002033A6FB0094F520 /* HomeWireframeProtocol.swift */,
+			);
+			name = Routing;
+			sourceTree = "<group>";
+		};
+		2007D3D22033A1EC0094F520 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2007D3DC2033A3160094F520 /* Home.storyboard */,
+				36712B31849D1150203E5B5D /* HomeViewController.swift */,
+				2007D3F82033A5E90094F520 /* HomeViewControllerProtocol.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		2007D3D32033A2100094F520 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2007D3E02033A36B0094F520 /* Signup.storyboard */,
+				367122A6CC480F3C8EE88715 /* SignUpViewController.swift */,
+				2007D3F42033A5BC0094F520 /* SignUpViewControllerProtocol.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		2007D3D42033A2140094F520 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2007D3DE2033A3600094F520 /* Login.storyboard */,
+				36712BAAC19C28EFFA10A0FD /* LoginViewController.swift */,
+				2007D3F62033A5CC0094F520 /* LoginViewControllerProtocol.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		2007D3D52033A2180094F520 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2007D3E22033A37A0094F520 /* Splash.storyboard */,
+				367129C02D3B39F85D440F54 /* SplashViewController.swift */,
+				2007D3FA2033A5F80094F520 /* SplashViewControllerProtocol.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		2007D3D62033A25D0094F520 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				2007D40C2033A7680094F520 /* SignupWireframe.swift */,
+				2007D40A2033A75C0094F520 /* SignupWireframeProtocol.swift */,
+			);
+			name = Routing;
+			sourceTree = "<group>";
+		};
+		2007D3D72033A2650094F520 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				2007D4062033A7370094F520 /* LoginWireframe.swift */,
+				2007D4082033A7460094F520 /* LoginWireframeProtocol.swift */,
+			);
+			name = Routing;
+			sourceTree = "<group>";
+		};
+		2007D3D82033A26A0094F520 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				2007D4042033A7240094F520 /* SplashWireframe.swift */,
+				2007D4022033A71A0094F520 /* SplashWireframeProtocol.swift */,
+			);
+			name = Routing;
+			sourceTree = "<group>";
+		};
+		2007D3D92033A26F0094F520 /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+				2007D3E82033A4920094F520 /* LoginInteractor.swift */,
+				2007D3EA2033A4A50094F520 /* LoginInteractorProtocol.swift */,
+			);
+			name = BusinessLogic;
+			sourceTree = "<group>";
+		};
+		2007D3DA2033A2730094F520 /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+				2007D3EC2033A4BD0094F520 /* SignupInteractor.swift */,
+				2007D3F22033A4E80094F520 /* SignupInteractorProtocol.swift */,
+			);
+			name = BusinessLogic;
+			sourceTree = "<group>";
+		};
+		2007D3DB2033A2780094F520 /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+				2007D3EE2033A4D00094F520 /* SplashInteractor.swift */,
+				2007D3F02033A4DD0094F520 /* SplashInteractorProtocol.swift */,
+			);
+			name = BusinessLogic;
+			sourceTree = "<group>";
+		};
 		36712078F5070BF0CFE0B4C5 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -68,8 +296,7 @@
 		3671256CEB90288C78CC2CFA /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				3671259514EE6C892B7D6565 /* AppDelegate.swift */,
-				367126924430FE4D152E29D2 /* ViewController.swift */,
+				36712B9E8C7251C0981AA708 /* DataStore */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -77,33 +304,21 @@
 		3671283104B5691BDB17669D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				367122A6CC480F3C8EE88715 /* SignUpViewController.swift */,
-				367129C02D3B39F85D440F54 /* SplashViewController.swift */,
-				36712BAAC19C28EFFA10A0FD /* LoginViewController.swift */,
-				36712B31849D1150203E5B5D /* HomeViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
 		};
-		36712B9E8C7251C0981AA708 /* CoreData */ = {
+		36712B9E8C7251C0981AA708 /* DataStore */ = {
 			isa = PBXGroup;
 			children = (
-				3671298FE93B765C270A9F67 /* User+CoreDataClass.swift */,
-				367127689BF6D9FA024C7542 /* User+CoreDataProperties.swift */,
+				2007D3C82033A0F80094F520 /* Entities */,
+				2007D3C92033A1380094F520 /* ManagedEntities */,
 				36712283C2DED7CAD258C82D /* DataStore.swift */,
 				36712B2491DCB765E4DD4AB2 /* CoreDataManager.swift */,
 				36712FBE9554D3236CB99F6A /* CoreDataEngine.swift */,
 				3671294F055ECA4AE19E77CB /* LoginTest.xcdatamodeld */,
 			);
-			name = CoreData;
-			sourceTree = "<group>";
-		};
-		36712D05BB8C6D3522027C2F /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				367120C87E0BAF1194DBE75C /* UserModel.swift */,
-			);
-			name = Model;
+			name = DataStore;
 			sourceTree = "<group>";
 		};
 		B5FCF6B81C60BD1A0005FC9B = {
@@ -125,14 +340,15 @@
 		B5FCF6C31C60BD1A0005FC9B /* LoginTest */ = {
 			isa = PBXGroup;
 			children = (
+				2007D3CA2033A1540094F520 /* Modules */,
+				3671256CEB90288C78CC2CFA /* Common */,
+				3671283104B5691BDB17669D /* Controllers */,
+				36712078F5070BF0CFE0B4C5 /* View */,
+				3671259514EE6C892B7D6565 /* AppDelegate.swift */,
+				2007D3FC2033A6AC0094F520 /* RootWireframe.swift */,
 				B5FCF6CE1C60BD1A0005FC9B /* Assets.xcassets */,
 				B5FCF6D01C60BD1A0005FC9B /* LaunchScreen.storyboard */,
 				B5FCF6D31C60BD1A0005FC9B /* Info.plist */,
-				3671256CEB90288C78CC2CFA /* Common */,
-				36712B9E8C7251C0981AA708 /* CoreData */,
-				3671283104B5691BDB17669D /* Controllers */,
-				36712D05BB8C6D3522027C2F /* Model */,
-				36712078F5070BF0CFE0B4C5 /* View */,
 			);
 			path = LoginTest;
 			sourceTree = "<group>";
@@ -199,6 +415,10 @@
 				B5FCF6D21C60BD1A0005FC9B /* LaunchScreen.storyboard in Resources */,
 				B5FCF6CF1C60BD1A0005FC9B /* Assets.xcassets in Resources */,
 				3671277E574728C08A59A99D /* Main.storyboard in Resources */,
+				2007D3DF2033A3600094F520 /* Login.storyboard in Resources */,
+				2007D3E12033A36B0094F520 /* Signup.storyboard in Resources */,
+				2007D3DD2033A3160094F520 /* Home.storyboard in Resources */,
+				2007D3E32033A37A0094F520 /* Splash.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,17 +430,37 @@
 			buildActionMask = 2147483647;
 			files = (
 				36712F033D8844B9D7A5FD11 /* AppDelegate.swift in Sources */,
-				367126D2DEBA50A908D6E92C /* ViewController.swift in Sources */,
+				2007D3FB2033A5F80094F520 /* SplashViewControllerProtocol.swift in Sources */,
+				2007D40B2033A75C0094F520 /* SignupWireframeProtocol.swift in Sources */,
+				2007D4012033A6FB0094F520 /* HomeWireframeProtocol.swift in Sources */,
+				2007D3F92033A5E90094F520 /* HomeViewControllerProtocol.swift in Sources */,
+				2007D3F72033A5CC0094F520 /* LoginViewControllerProtocol.swift in Sources */,
+				2007D3F52033A5BC0094F520 /* SignUpViewControllerProtocol.swift in Sources */,
+				2007D3ED2033A4BD0094F520 /* SignupInteractor.swift in Sources */,
 				36712203548C2003088D1C25 /* User+CoreDataClass.swift in Sources */,
+				2007D4072033A7370094F520 /* LoginWireframe.swift in Sources */,
 				36712E1475AC4D8D2A706B8F /* User+CoreDataProperties.swift in Sources */,
+				2007D3E92033A4920094F520 /* LoginInteractor.swift in Sources */,
+				2007D3E72033A4770094F520 /* HomeInteractorProtocol.swift in Sources */,
+				2007D3F32033A4E80094F520 /* SignupInteractorProtocol.swift in Sources */,
+				2007D3E52033A4470094F520 /* HomeInteractor.swift in Sources */,
 				367125A96A41DBB0F243CD28 /* DataStore.swift in Sources */,
 				367124746D42DD9925401888 /* CoreDataManager.swift in Sources */,
+				2007D4032033A71A0094F520 /* SplashWireframeProtocol.swift in Sources */,
+				2007D3EF2033A4D00094F520 /* SplashInteractor.swift in Sources */,
 				367127E6E75FDC7B2E770E76 /* CoreDataEngine.swift in Sources */,
+				2007D40D2033A7680094F520 /* SignupWireframe.swift in Sources */,
 				367120223A771D13DFA47982 /* SignUpViewController.swift in Sources */,
+				2007D3FF2033A6DD0094F520 /* HomeWireframe.swift in Sources */,
+				2007D3F12033A4DD0094F520 /* SplashInteractorProtocol.swift in Sources */,
 				36712A7753D84295818963BB /* SplashViewController.swift in Sources */,
+				2007D4092033A7460094F520 /* LoginWireframeProtocol.swift in Sources */,
 				367129114E3D1E1B4736109F /* LoginViewController.swift in Sources */,
+				2007D3FD2033A6AC0094F520 /* RootWireframe.swift in Sources */,
 				3671268433258C799FB22C70 /* HomeViewController.swift in Sources */,
 				36712D7DEA5B4B536D461BDF /* UserModel.swift in Sources */,
+				2007D4052033A7240094F520 /* SplashWireframe.swift in Sources */,
+				2007D3EB2033A4A50094F520 /* LoginInteractorProtocol.swift in Sources */,
 				36712F62AE21F8CE38427773 /* LoginTest.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

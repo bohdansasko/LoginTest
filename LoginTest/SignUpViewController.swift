@@ -9,14 +9,15 @@
 import UIKit
 
 class SignUpViewController: UIViewController {
+    var navigation: SignupWireframe?
+    var interactor: SignupInteractor?
+    
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
 
     @IBAction func didTapSingupButton(sender: AnyObject) {
@@ -24,21 +25,19 @@ class SignUpViewController: UIViewController {
         inputDict["name"] = self.nameTextField.text as AnyObject
         inputDict["password"] = self.passwordTextField.text as AnyObject
         let userModel = UserModel(inputDictionary: inputDict)
-        createUser(userModel: userModel)
-        self.dismiss(animated: true, completion: nil)
+        self.interactor?.createUser(userModel: userModel)
+        
+        navigation?.presentHomeScreen()
     }
 
     @IBAction func didTapDismissButton(sender: AnyObject) {
-        self.dismiss(animated: true, completion: nil)
-    }
-
-    func createUser(userModel: UserModel) {
-        userCreatingShow(DataStore.defaultLocalDB.createUser(userModel: userModel))
+        navigation?.dismissSignupViewController()
     }
 
     func userCreatingShow(_ isSaved: Bool) {
         if isSaved {
             print("Success: user created")
+            self.navigation?.presentHomeScreen()
         } else {
             print("Failure: user didn't store")
         }

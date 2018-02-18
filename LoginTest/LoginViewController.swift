@@ -9,12 +9,14 @@
 import UIKit
 
 class LoginViewController: UIViewController {
+    var navigation: LoginWireframe?
+    var interactor: LoginInteractor?
+    
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
 
@@ -28,19 +30,18 @@ class LoginViewController: UIViewController {
         inputDict["name"] = nameTextField.text as AnyObject
         inputDict["password"] = passwordTextField.text as AnyObject
         let userModel = UserModel(inputDictionary: inputDict)
-        loginUserWithModel(userModel: userModel)
+        
+        self.interactor?.loginUser(userModel: userModel)
     }
 
     @IBAction func didTapDissmisButton(sender: AnyObject) {
-        self.dismiss(animated: true, completion: nil)
+        navigation?.dismissLoginViewController()
     }
 
-    func loginUserWithModel(userModel: UserModel) {
-        if DataStore.defaultLocalDB.loginUser(userModel: userModel) {
+    func loginUser(isSaved: Bool) {
+        if isSaved {
             print("Success: user logged")
-            let homeViewController = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "HomeViewController") as!
-                HomeViewController
-            self.present(homeViewController, animated: true, completion: nil)
+            navigation?.presentHomeScreen()
         } else {
             print("Failure: user don't have in store")
         }

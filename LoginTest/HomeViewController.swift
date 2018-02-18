@@ -1,4 +1,4 @@
-//
+    //
 //  HomeViewController.swift
 //  LoginTest
 //
@@ -9,20 +9,20 @@
 import UIKit
 
 class HomeViewController: UIViewController {
-
+    var interactor: HomeInteractor?
+    var navigation: HomeWireframe?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
     @IBAction func didTapLogoutBtn(sender: AnyObject) {
-        self.dismiss(animated: true, completion: nil)
+        self.navigation?.dismissHomeViewController()
     }
 
     @IBAction func didTapDeleteUserBtn(sender: AnyObject) {
-        DataStore.defaultLocalDB.deleteUser()
-        self.dismiss(animated: true, completion: nil)
+        self.interactor?.deleteUser()
+        self.navigation?.dismissHomeViewController()
     }
 
 }
